@@ -8,5 +8,5 @@ void main()
 	printf("[----- [민선홍] [2018038028] -----]\n");
 	printf("sizeof(x) = %lu\n", sizeof(x)); // 32비트로 보았을 때, 주소를 저장하고 있기 때문에 4바이트 출력
 	printf("sizeof(x) = %lu\n", sizeof(*x)); // *x도 포인터이므로 주소를 저장하고 있어, 포인터의 크기 = 4 출력
-	printf("sizeof(**x) = %lu\n",sizeof(**x)); // **x의 크기인 4 출력
+	printf("sizeof(**x) = %lu\n",sizeof(**x)); // integer를 저장하기 때문에 4 출력
 }
