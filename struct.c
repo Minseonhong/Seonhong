@@ -5,13 +5,13 @@ struct student1{
 	char lastName;
 	int studentId;
 	char grade;
-}; // 변수 3개를 갖는 구조체 student1 선언
+}; // 멤버변수 3개를 갖는 구조체 student1 선언
 
 typedef struct{
 	char lastName;
 	int  studentId;
 	char grade;
-} student2; // typedef 사용, 변수 3개를 갖는 구조체 student2 선언
+} student2; // typedef 사용, 멤버변수 3개를 갖는 구조체 student2 선언
 
 int main(){
 	struct student1 st1 = {'A', 100, 'A'}; // student1 자료형을 갖는 변수 st1에 A,100,A를 대입
